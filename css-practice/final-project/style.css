@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #2B292D;
+  letter-spacing: -0.01em;
+}
+
+/* Reset */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button,
+input,
+textarea {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Custom */
+.sm-btn {
+  width: 140px;
+  height: 48px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.fc-blue {
+  color: #3040C4;
+}
+
+.fc-white {
+  color: #fff;
+}
+
+.bg-blue {
+  background-color: #3040C4;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+
+/* Landing */
+.landing {
+  background-color: #fdded8;
+  text-align: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing-title {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.landing-desc {
+  margin-bottom: 24px;
+}
+
+
+/* Service */
+.service {
+  padding: 80px 0;
+  background-color: #F4F5F7;
+}
+
+.service .col-12 {
+  margin-bottom: 40px;
+}
+
+.service-title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3636363637;
+  letter-spacing: -0.04em;
+}
+
+.service-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+
+/* Program */
+.program .col-12 {
+  padding-top: 80px;
+}
+
+.program .section-category {
+  display: block;
+  color: #009B4D;
+  margin-bottom: 8px;
+}
+
+.program .section-title {
+  margin-bottom: 24px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+}
+
+.program .section-desc {
+  margin-bottom: 32px;
+}
+
+.program-card {
+  width: 290px;
+  height: 291px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.program-card img {
+
+}
